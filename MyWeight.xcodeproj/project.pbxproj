@@ -13,6 +13,7 @@
 		97875E651E07662A00C36E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97875E641E07662A00C36E8C /* Assets.xcassets */; };
 		97875E681E07662A00C36E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97875E661E07662A00C36E8C /* LaunchScreen.storyboard */; };
 		97875E721E0773C500C36E8C /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97875E711E0773C500C36E8C /* WeightViewController.swift */; };
+		97875E761E07A10800C36E8C /* NewWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97875E751E07A10800C36E8C /* NewWeightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		97875E671E07662A00C36E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97875E691E07662A00C36E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97875E711E0773C500C36E8C /* WeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		97875E751E07A10800C36E8C /* NewWeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWeightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		97875E591E07662A00C36E8C /* MyWeight */ = {
 			isa = PBXGroup;
 			children = (
+				97875E771E07A11100C36E8C /* UI */,
 				97875E5A1E07662A00C36E8C /* AppDelegate.swift */,
 				97875E5E1E07662A00C36E8C /* Main.storyboard */,
 				97875E641E07662A00C36E8C /* Assets.xcassets */,
 				97875E661E07662A00C36E8C /* LaunchScreen.storyboard */,
 				97875E691E07662A00C36E8C /* Info.plist */,
 				97875E611E07662A00C36E8C /* MyWeight.xcdatamodeld */,
-				97875E711E0773C500C36E8C /* WeightViewController.swift */,
 			);
 			path = MyWeight;
+			sourceTree = "<group>";
+		};
+		97875E771E07A11100C36E8C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				97875E711E0773C500C36E8C /* WeightViewController.swift */,
+				97875E751E07A10800C36E8C /* NewWeightViewController.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97875E721E0773C500C36E8C /* WeightViewController.swift in Sources */,
+				97875E761E07A10800C36E8C /* NewWeightViewController.swift in Sources */,
 				97875E631E07662A00C36E8C /* MyWeight.xcdatamodeld in Sources */,
 				97875E5B1E07662A00C36E8C /* AppDelegate.swift in Sources */,
 			);

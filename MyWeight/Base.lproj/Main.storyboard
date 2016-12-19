@@ -14,7 +14,7 @@
             <objects>
                 <tableViewController id="0Em-Hr-IIo" customClass="WeightViewController" customModule="MyWeight" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="G70-Z8-k0d" customClass="WeigthViewController">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
@@ -38,20 +38,48 @@
                         </prototypes>
                         <sections/>
                     </tableView>
-                    <navigationItem key="navigationItem" title="MyWeight" id="jol-mF-r1c"/>
+                    <navigationItem key="navigationItem" title="MyWeight" id="jol-mF-r1c">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="YPy-nw-Od5">
+                            <color key="tintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="rfV-o4-9ah" kind="show" id="J8f-4o-UDA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tHK-mc-a8B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1820" y="-6.746626686656672"/>
+        </scene>
+        <!--New Weight-->
+        <scene sceneID="bup-IC-FSm">
+            <objects>
+                <viewController id="rfV-o4-9ah" customClass="NewWeightViewController" customModule="MyWeight" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RjD-CP-47v"/>
+                        <viewControllerLayoutGuide type="bottom" id="ynp-0R-yeF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YUs-0D-gg0">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="New Weight" id="Cy2-jW-ghj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvp-wO-coP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2668" y="-7"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hQK-jm-AYV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7WI-yw-GB0" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EEi-H7-Dvc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="EEi-H7-Dvc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
