@@ -24,7 +24,6 @@
 		97875E671E07662A00C36E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97875E691E07662A00C36E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97875E711E0773C500C36E8C /* WeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
-		97875E731E07799000C36E8C /* KCFloatingActionButton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KCFloatingActionButton.framework; path = Carthage/Build/iOS/KCFloatingActionButton.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +40,6 @@
 		97875E4E1E07662A00C36E8C = {
 			isa = PBXGroup;
 			children = (
-				97875E731E07799000C36E8C /* KCFloatingActionButton.framework */,
 				97875E591E07662A00C36E8C /* MyWeight */,
 				97875E581E07662A00C36E8C /* Products */,
 			);
