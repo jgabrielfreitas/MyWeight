@@ -11,7 +11,7 @@ import UIKit
 
 class WeightViewController: UITableViewController {
     
-    var words: [String] = ["Android", "Is", "More", "Easy"]
+    var words: [String] = ["Android", "Is", "Easier"]
     
     
     // MARK: table view data source
