@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import KCFloatingActionButton
+
 
 class WeightViewController: UIViewController {
 

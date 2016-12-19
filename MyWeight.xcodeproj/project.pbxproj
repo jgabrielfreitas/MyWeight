@@ -13,7 +13,6 @@
 		97875E651E07662A00C36E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97875E641E07662A00C36E8C /* Assets.xcassets */; };
 		97875E681E07662A00C36E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97875E661E07662A00C36E8C /* LaunchScreen.storyboard */; };
 		97875E721E0773C500C36E8C /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97875E711E0773C500C36E8C /* WeightViewController.swift */; };
-		97875E741E07799000C36E8C /* KCFloatingActionButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97875E731E07799000C36E8C /* KCFloatingActionButton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97875E741E07799000C36E8C /* KCFloatingActionButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
