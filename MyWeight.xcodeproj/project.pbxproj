@@ -326,6 +326,7 @@
 				97875E6E1E07662A00C36E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
